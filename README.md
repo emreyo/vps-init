@@ -16,3 +16,7 @@ vps initial install script written in bash
   * composer
 
 you can just get the file at url https://raw.githubusercontent.com/emreyo/vps-init/master/vpsi.sh with curl and execute
+
+**todo:**
+
+* backup crons
