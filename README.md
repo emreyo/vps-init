@@ -3,6 +3,8 @@ vps-init
 
 vps initial install script written in bash
 
+**usage:** `bash <(curl http://goo.gl/D3sdsn)`
+
 * updates apt repos
 
 * installs 
@@ -19,4 +21,4 @@ you can just get the file at url https://raw.githubusercontent.com/emreyo/vps-in
 
 **todo:**
 
-* backup crons
+* ~~backup crons~~
