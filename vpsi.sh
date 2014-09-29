@@ -16,3 +16,11 @@ mysql_install_db
 # install composer
 curl -sS https://getcomposer.org/installer | php
 mv composer.phar /usr/local/bin/composer
+
+mkdir -p /var/backups/mysql
+mkdir -p /var/backups/www
+
+read -p "mysql password: "
+
+echo "0 0 * * * root mysqldump -u root -p$REPLY --all-databases | gzip > /var/backups/mysql/backup-`date +"\%d"`.sql.gz" >> /etc/cron.d/mysql.backup
+echo "0 0 * * * root tar -zcf /var/backups/www/backup-`date +"\%d"`.tar.gz /var/www/" >> /etc/cron.d/www.backup
