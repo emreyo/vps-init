@@ -5,7 +5,7 @@ vps initial install script written in bash
 
 **usage:** `bash <(curl http://goo.gl/D3sdsn)`
 
-## don't forget to check the contents of the file before executing it!
+### don't forget to check the contents of the file before executing it!
 
 * updates apt repos
 
