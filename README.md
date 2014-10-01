@@ -3,7 +3,9 @@ vps-init
 
 vps initial install script written in bash
 
-**usage:** `bash <(curl http://goo.gl/D3sdsn)`
+**usage:**
+
+    bash <(curl https://raw.githubusercontent.com/emreyo/vps-init/master/vpsi.sh)
 
 ### don't forget to check the contents of the file before executing it!
 
