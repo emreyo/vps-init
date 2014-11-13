@@ -1,5 +1,10 @@
 #!/bin/bash
 
+if [ "$(whoami)" != "root" ]; then
+	echo "* error - need root"
+	exit 1
+fi
+
 # update 
 apt-get update
 
