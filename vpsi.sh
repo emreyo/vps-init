@@ -4,7 +4,7 @@
 apt-get update
 
 # install packages
-apt-get install -y vim git apache2 mysql-server libapache2-mod-auth-mysql php5-mysql php5 libapache2-mod-php5 php5-mcrypt php5-gd
+apt-get install -y curl vim git apache2 mysql-server libapache2-mod-auth-mysql php5-mysql php5 libapache2-mod-php5 php5-mcrypt php5-gd
 
 # enable mcrypt
 php5enmod mcrypt
