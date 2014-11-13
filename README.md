@@ -14,6 +14,10 @@ or, if you don't have cURL installed,
     wget https://raw.githubusercontent.com/emreyo/vps-init/master/vpsi.sh
     bash vpsi.sh # got sudo?
 
+Here's a "one liner": 
+
+    wget https://raw.githubusercontent.com/emreyo/vps-init/master/vpsi.sh;bash vpsi.sh
+
 Also, if you're not the root, append `sudo` before executing the script. Or, run `sudo su`. However, be extra careful when you're root. 
 
 As always, 
